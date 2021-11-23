@@ -1,0 +1,131 @@
+body {
+		padding: 2em;
+		font-family: 'Raleway',sans-serif;
+		background: #3498db;
+		font-weight: 300;
+		color: #fff;
+		font-size: 3em;
+		line-height: 1.518;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+	h1 {
+		position: absolute;
+		right: 1em;
+		bottom: 0;
+		color: #2980b9;
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		-webkit-animation-fill-mode: both;
+		-moz-animation-fill-mode: both;
+		-ms-animation-fill-mode: both;
+		-o-animation-fill-mode: both;
+		animation-fill-mode: both;
+		-webkit-animation-duration: .5s;
+		-moz-animation-duration: .5s;
+		-ms-animation-duration: .5s;
+		-o-animation-duration: .5s;
+		animation-duration: .5s;
+		-webkit-animation-name: fadeInUp;
+		-moz-animation-name: fadeInUp;
+		-o-animation-name: fadeInUp;
+		animation-name: fadeInUp;
+	}
+	span{
+		font-weight:bold;
+	}
+
+	li,ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	@-webkit-keyframes fadeInUp {
+		0% {
+		    opacity: 0;
+		    -webkit-transform: translateY(20px);
+		}
+
+		100% {
+		    opacity: 1;
+		    -webkit-transform: translateY(0);
+		}
+	}
+
+	@-moz-keyframes fadeInUp {
+		0% {
+		    opacity: 0;
+		    -moz-transform: translateY(20px);
+		}
+
+		100% {
+		    opacity: 1;
+		    -moz-transform: translateY(0);
+		}
+	}
+
+	@-o-keyframes fadeInUp {
+		0% {
+		    opacity: 0;
+		    -o-transform: translateY(20px);
+		}
+
+		100% {
+		    opacity: 1;
+		    -o-transform: translateY(0);
+		}
+	}
+
+	@keyframes fadeInUp {
+		0% {
+		    opacity: 0;
+		    transform: translateY(20px);
+		}
+
+		100% {
+		    opacity: 1;
+		    transform: translateY(0);
+		}
+	}
+
+	.one {
+		animation-delay: .1s;
+		-webkit-animation-delay: .1s;
+		-moz-animation-delay: .1s;
+		-o-animation-delay: .1s;
+	}
+
+	.two {
+		animation-delay: .2s;
+		-webkit-animation-delay: .2s;
+		-moz-animation-delay: .2s;
+		-o-animation-delay: .2s;
+	}
+
+	@media screen and (max-width:980px) {
+		h1 {
+		    font-size: 1.4em;
+		}
+	}
+
+	@media screen and (max-width:820px) {
+		body {
+		    font-size: 2em;
+		}
+
+		h1 {
+		    position: relative;
+		    margin-left: 1em;
+		}
+	}
+
+	@media screen and (max-width:480px) {
+		body {
+		    font-size: 1.5em;
+		}
+	}
